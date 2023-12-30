@@ -42,7 +42,7 @@ export default function Contact(props){
             <motion.div className="container mx-auto">
 
                 <div className="grid gap-6 mt-3 lg:grid-cols-2">
-                    <motion.div variants={fadeIn('right', 0.6)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}} className="card">                       
+                    <motion.div variants={fadeIn('right', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.2}} className="card">                       
                         <div className="max-w-xl p-1 mx-auto my-3">
                             <h4 className="my-4 text-2xl font-medium tracking-wider text-sky-700">Coordonnées de contact</h4>
                             <div className="">
@@ -70,7 +70,7 @@ export default function Contact(props){
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div variants={fadeIn('left', 0.6)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}} className="card">
+                    <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.2}} className="card">
                         
                         <div className="max-w-xl p-1 mx-auto my-3 rounded-md shadow-sm">                   
                             <div className="text-center">
