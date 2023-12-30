@@ -23,7 +23,7 @@ export default function Home() {
   SwiperCore.use([Autoplay])
 
   return (
-    <Layout title="Accueil">
+    <Layout title="Accueil" className="min-w-full">
       <AnimatePresence>
         <Swiper
           slidesPerView={1}
