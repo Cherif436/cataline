@@ -94,7 +94,7 @@ export default function Home() {
         <h4 className="text-lg font-bold text-center text-sky-700">Découvrir nos services</h4>
           <motion.div animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1 }} className="grid gap-3 mt-7 md:grid-cols-4 mb-7" variants={fadeIn('right', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.2}}> 
+            transition={{ duration: 1 }} className="grid gap-3 mt-7 md:grid-cols-4 mb-7" variants={fadeIn('up', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.1}}> 
 
             {img?.products.slice(0, articleNum).map((product) => (
                 <div className="relative overflow-hidden duration-300 rounded-xl group hover:scale-105 hover:shadow-md">
