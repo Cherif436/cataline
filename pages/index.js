@@ -31,7 +31,7 @@ export default function Home() {
           autoplay={{
             delay: 3000
           }}
-          className="mt-2 mb-24 xl:w-full lg:w-full md:w-full sm:w-full"
+          className="mt-2 mb-24"
         >
           
             {slider.slides.map((slide, index) => {
