@@ -45,7 +45,7 @@ function services() {
         <motion.div
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1 }} className="grid gap-2 p-5 mt-3 md:grid-cols-4" variants={fadeIn('up', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}}> 
+            transition={{ duration: 1 }} className="grid gap-2 p-5 mt-3 md:grid-cols-4" variants={fadeIn('down', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}}> 
 
             {data.products.map((product) => (
                 <div className="relative overflow-hidden duration-300 rounded-xl group hover:scale-105 hover:shadow-md">
