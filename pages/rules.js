@@ -16,8 +16,7 @@ const Rules = () => {
         style={{
           padding:"50px",
           display:"flex",
-          width:"100%",
-          overflow:"hidden"
+          width:"100%"
         }}
       >
         <motion.div className="container items-center justify-center mx-auto place-items-center" variants={fadeIn('right', 0.6)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}}>
