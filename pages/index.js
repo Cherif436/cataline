@@ -37,7 +37,7 @@ export default function Home() {
             {slider.slides.map((slide, index) => {
               return (
                   <SwiperSlide>
-                    <motion.div className='' variants={fadeIn('down', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}}>
+                    <motion.div className='' variants={fadeIn('down', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.2}}>
                       <div className='' key={index}>
                         <Link href={`/product/${slide.slug}`}> 
                           <img src={slide.image} alt="Caté" className='object-cover p-1 transition duration-300 ease-in-out bg-cover rounded-md hover:-translate-y-1 hover:scale-110 drop-shadow-lg' style={{height:'600px', width:'100%'}} />
