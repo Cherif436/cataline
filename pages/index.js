@@ -32,7 +32,6 @@ export default function Home() {
             delay: 3000
           }}
           className="mt-2 mb-24 xl:w-full lg:w-full md:w-full sm:w-9/12"
-          style={{ width:"100%"}}
         >
           
             {slider.slides.map((slide, index) => {
